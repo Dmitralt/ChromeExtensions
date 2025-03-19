@@ -1,0 +1,2 @@
+# SoundBoost Chrome Extension
+
