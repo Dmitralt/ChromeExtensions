@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Content filters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="section">
+        <div class="toggle-header collapsed" id="toggle-black">
+            <h3>🛑 Black List</h3>
+            <span class="arrow" id="arrow-black">▼</span>
+        </div>
+        <div class="panel" id="panel-black">
+            <div id="blacklist" class="list"></div>
+            <button id="add-black" class="add-btn">✙ Add rule</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="toggle-header collapsed" id="toggle-white">
+            <h3>✅ White List 🐑</h3>
+            <span class="arrow" id="arrow-white">▼</span>
+        </div>
+        <div class="panel" id="panel-white">
+            <div id="whitelist" class="list"></div>
+            <button id="add-white" class="add-btn">✙ Add rule</button>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
